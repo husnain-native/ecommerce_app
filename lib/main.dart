@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       themeMode: ThemeMode.system,
       theme: ThemeData(
-        
+        textTheme: TextTheme(
+          bodyLarge: TextStyle( fontSize: 14, color: Colors.green,
+        ),
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
