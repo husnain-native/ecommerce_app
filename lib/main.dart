@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ecommerce_store/utils/theme/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       themeMode: ThemeMode.system,
-      theme: ThemeData(
-        textTheme: TextTheme(
-          bodyLarge: TextStyle( fontSize: 14, color: Colors.green,
-        ),
-      ),
-      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      theme: TAppTheme.lightTheme,
+      darkTheme: TAppTheme.darkTheme,
+       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
