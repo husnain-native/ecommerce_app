@@ -1,0 +1,16 @@
+flutter_native_splash:
+  # Base configuration
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logo/t-store-splash-logo-black.png
+  image_dark: assets/logo/t-store-splash-logo-white.png
+
+  # Android 12+ requires separate configuration
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logo/t-store-splash-logo-black.png
+    image_dark: assets/logo/t-store-splash-logo-white.png
+
+  # Disable splash screen for web builds (because web doesn’t support native splash screens)
+  web: false
